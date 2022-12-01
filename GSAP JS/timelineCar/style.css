@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.7;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(239, 239, 239);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    height: 680px;
+    width: 320px;
+    background-color: white;
+    border-radius: 28px;
+    padding: 20px;
+    box-shadow: 0px 56px 72px -30px rgb(50, 55, 63, 0.46);
+}
+
+.container img {
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+}
+
+.container h1 {
+    position: absolute;
+    left: 50%;
+    bottom: -25%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #313942;
+    width: 100%;
+    font-weight: bold;
+}
+
+.container p {
+    width: 260px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #535C68;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container .buy {
+    background-color: #17202c;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 50px;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.container .buy i {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .menu,
+.container .profile {
+    position: absolute;
+    font-size: 24px;
+    top: 30px;
+}
+
+.container .menu {
+    left: -100px;
+}
+
+.container .profile {
+    right: -100px;
+}
+
+.container .back-button {
+    position: absolute;
+    left: 35px;
+    bottom: -25%;
+    font-size: 24px;
+    color: rgb(255, 255, 255, 0.43);
+    cursor: pointer;
+}
+.container .car-2{
+    position: absolute;
+    left:200%;
+    top:15%;
+    transform: translate(-50%,-50%);
+    height: 100px;
+}
+.container h2{
+    position: absolute;
+    top:38%;
+    left:-60%;
+    transform: translate(-50%);
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+.container .summary{
+    position: absolute;
+    top: 46%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: white;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.container .summary-2{
+    position: absolute;
+    top: 58%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: white;
+    font-weight: 600;
+    opacity: 0.8;
+}
